@@ -1,7 +1,13 @@
-This is an adaptation of the repository below, to include data from the Bundesliga season 2015/2016. Teams and their icons were included. Also, spanish was added as language with all its features.
+This is an adaptation of the repository below, to include data from the Bundesliga season 2015/2016. A new json was generated wit the same structure as the original. data2.js was adapted to include the german teams ant the references to the icons. Icons were generated and referenced. Minor changes in index.html.
+
+Also, spanish was added as language with all its features.
+
+-Enrique López
+
+==========
 
 À Table!
-======
+=========
 
 This repository contains the code of the following article presented at [ACM CHI 2014](http://chi2014.acm.org):
 
