@@ -1,3 +1,5 @@
+This is an adaptation of the repository below, to include data from the Bundesliga season 2015/2016. Teams and their icons were included. Also, spanish was added as language with all its features.
+
 À Table!
 ======
 
