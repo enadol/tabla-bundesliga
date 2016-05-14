@@ -9,6 +9,7 @@ div.language{
   width:90px;
   height:22px;
   border:1px solid black;
+  background: wheat;
 }
 
 div.language img{
@@ -16,6 +17,7 @@ div.language img{
   display: inline;
   margin:3px;
   border:2px solid black;
+
 }
 
 div.language img:hover{
@@ -49,10 +51,10 @@ div.header #chrome{
 #titlediv{
     position: absolute;
     top:31px;
-    left:200px;
+    left:100px;
     text-align: center;
-    font-family: verdana, Times, serif;
-    font-size: 11px;
+    font-family: calibri, Times, serif;
+    font-size: 21px;
 }
 
 .widget-arrow-days {
@@ -69,7 +71,7 @@ div.header #chrome{
 }
 
 .cell rect.bkg{
-  stroke:black;
+  stroke:white;
   stroke-width:1px;
   fill:white;
 }
@@ -186,9 +188,9 @@ Rules for embed barcharts
 Rules for table slider
 */
 .slider-bar{
-  stroke: black;
+  stroke: white;
   stroke-width:1px;
-  fill: black;
+  fill: white;
   fill-opacity: .1;
 }
 
@@ -221,4 +223,9 @@ For linegraph
 
 .visuModes_text:hover{
     font-weight:bold;
+}
+
+body{
+    
+    background-color: orangered;
 }
