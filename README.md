@@ -1,3 +1,9 @@
+This is an adaptation of the repository below, to include data from the Bundesliga season 2015/2016. A new json was generated dynamically with a python script (cleaner.py) with the same structure as the original. data2.js was adapted to include the german teams ant the references to the icons. Icons were generated and referenced. Minor changes in index.html.
+
+Also, spanish was added as language with all its features.
+
+-Enrique López
+
 À Table!
 ======
 

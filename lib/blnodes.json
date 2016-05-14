@@ -4636,8 +4636,8 @@
             "name": "Schalke 04",
             "code": "S04"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 1,
+          "goalsAway": 4
         },
         {
           "date": "2016-05-14",
@@ -4651,8 +4651,8 @@
             "name": "Borussia M'gladbach",
             "code": "BMG"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 0,
+          "goalsAway": 2
         },
         {
           "date": "2016-05-14",
@@ -4666,8 +4666,8 @@
             "name": "Hamburger SV",
             "code": "HSV"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 1,
+          "goalsAway": 3
         },
         {
           "date": "2016-05-14",
@@ -4681,8 +4681,8 @@
             "name": "Stuttgart",
             "code": "VFB"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 3,
+          "goalsAway": 1
         },
         {
           "date": "2016-05-14",
@@ -4696,8 +4696,8 @@
             "name": "Eintracht Frankfurt",
             "code": "FFM"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 1,
+          "goalsAway": 0
         },
         {
           "date": "2016-05-14",
@@ -4711,8 +4711,8 @@
             "name": "1. FC Koeln",
             "code": "KOE"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 2,
+          "goalsAway": 2
         },
         {
           "date": "2016-05-14",
@@ -4726,8 +4726,8 @@
             "name": "Hannover 96",
             "code": "H96"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 3,
+          "goalsAway": 1
         },
         {
           "date": "2016-05-14",
@@ -4741,8 +4741,8 @@
             "name": "Hertha BSC",
             "code": "BSC"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 0,
+          "goalsAway": 0
         },
         {
           "date": "2016-05-14",
@@ -4756,8 +4756,8 @@
             "name": "FC Ingolstadt 04",
             "code": "FCI"
           },
-          "goalsHome": null,
-          "goalsAway": null
+          "goalsHome": 3,
+          "goalsAway": 2
         }
       ]
     }

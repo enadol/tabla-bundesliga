@@ -2378,74 +2378,74 @@
 },
 {"id":298,
 "teamAway": "Schalke 04",
-"goalsAway": "None",
+"goalsAway": "4",
 "teamHome": "1899 Hoffenheim",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "1"
 },
 {"id":299,
 "teamAway": "Borussia M'gladbach",
-"goalsAway": "None",
+"goalsAway": "2",
 "teamHome": "Darmstadt",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "0"
 },
 {"id":300,
 "teamAway": "Hamburger SV",
-"goalsAway": "None",
+"goalsAway": "3",
 "teamHome": "FC Augsburg",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "1"
 },
 {"id":301,
 "teamAway": "Stuttgart",
-"goalsAway": "None",
+"goalsAway": "1",
 "teamHome": "VfL Wolfsburg",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "3"
 },
 {"id":302,
 "teamAway": "Eintracht Frankfurt",
-"goalsAway": "None",
+"goalsAway": "0",
 "teamHome": "Werder Bremen",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "1"
 },
 {"id":303,
 "teamAway": "1. FC Koeln",
-"goalsAway": "None",
+"goalsAway": "2",
 "teamHome": "Borussia Dortmund",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "2"
 },
 {"id":304,
 "teamAway": "Hannover 96",
-"goalsAway": "None",
+"goalsAway": "1",
 "teamHome": "FC Bayern Muenchen",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "3"
 },
 {"id":305,
 "teamAway": "Hertha BSC",
-"goalsAway": "None",
+"goalsAway": "0",
 "teamHome": "1. FSV Mainz 05",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "0"
 },
 {"id":306,
 "teamAway": "FC Ingolstadt 04",
-"goalsAway": "None",
+"goalsAway": "2",
 "teamHome": "Bayer 04 Leverkusen",
 "day": 34,
 "date": "14/05/16",
-"goalsHome": "None"
+"goalsHome": "3"
 }
 ]

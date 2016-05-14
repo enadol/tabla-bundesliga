@@ -248,7 +248,7 @@ function createFooter(){
             .html("<a href='http://charles.perin.free.fr' target='_blank'>Charles Perin</a> <a href='http://www.vuillemot.net' target='_blank'>Romain Vuillemot</a>, <a href='http://www.aviz.fr' target='_blank'>Aviz</a> & <a href='http://enadol.de' target='_blank'>Enrique López Magallón</a>");
     div.append("input").attr("type","button")
             .attr("id","button-who")
-            .attr("value","Who are we?")
+            .attr("value","About us")
             .style("margin-left","85px")
             .on("click", function(){
                 window.open("./WhoAreWe.html",'_blank');
@@ -320,11 +320,11 @@ function setLanguage(language){
     d3.select("#titlediv").html(function(){
         if(current_language == ENGLISH) return "Explore the ranking table of the Bundesliga 2015/2016";
        else if(current_language == FRENCH) return "Explorez le classement de la Bundesliga 2015/2016";
-       return "Explore la clasificación de la Bundesliga en la temporada 2015/2016";
+       return "Explore la clasificación de la Bundesliga 2015/2016";
     });
 
     d3.select("#button-who").attr("value",function(){
-        if(current_language == ENGLISH) return "Who are we?";
+        if(current_language == ENGLISH) return "Who we are?";
         else if (current_language == FRENCH) return "Qui sommes-nous?";
         return "¿Quiénes somos?";
     });
