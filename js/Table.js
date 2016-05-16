@@ -31,7 +31,7 @@ Table.prototype.setLanguage = function(language){
         this.column_labels.names = [" "," ", 'Pts', "W", "D", "L",'Ho', 'Aw', 'GF', 'GA', 'GD'];
         this.column_labels.titles = [" "," ", 'points', "Win", "Draw", "Loss",'Home points', 'Away points', 'Goals for', 'Goals against', 'Goal difference'];
     }
-    else { this.column_labels.names = [" "," ", 'Pts', "G", "E", "P",'Loc', 'Vis', 'GF', 'GC', 'Dif'];
+    else { this.column_labels.names = ["Lugar","Equipo", 'Pts', "G", "E", "P",'Loc', 'Vis', 'GF', 'GC', 'Dif'];
         this.column_labels.titles = [" "," ", 'Puntos', "Ganados", "Empatados", "Perdidos",'Puntos local', 'Puntos visitante', 'Goles a favor', 'Goles en contra', 'Diferencia de goles'];
     }
     //update the col headers
