@@ -9,8 +9,10 @@
 var columnNames = [" ",' ', 'Pts', "V", "N", "D",'Dom', 'Ext', 'Bp', 'Bc', 'Diff'];
 var columnTitles = [" ", " ", 'Points', "Victoires", "Nuls", "Défaites",'Points à domicile', 'Points à l\'extérieur', 'Buts pour', 'Buts contre', 'Différence de buts'];
 var PODIUM_RANK = 3,
-    EUROPE_RANK = 5,
-    RELEGATION_RANK = 18;
+    CL_QUALI_RANK = 4,
+    EUROPE_RANK = 6,
+    RELEGATION_RANK = 16,
+    ABSTIEG_RANK = 17;
 
 function Table(params){
     this.language = DEFAULT_LANGUAGE;
@@ -29,8 +31,13 @@ Table.prototype.setLanguage = function(language){
     }
     else if(this.language == ENGLISH){
         this.column_labels.names = [" "," ", 'Pts', "W", "D", "L",'Ho', 'Aw', 'GF', 'GA', 'GD'];
-        this.column_labels.titles = [" "," ", 'points', "Win", "Draw", "Loss",'Home points', 'Away points', 'Goals for', 'Goals against', 'Goal difference'];
+        this.column_labels.titles = [" "," ", 'Points', "Win", "Draw", "Loss",'Home points', 'Away points', 'Goals for', 'Goals against', 'Goal difference'];
     }
+    else {
+        this.column_labels.names = [" "," ", 'Pts', "G", "E", "P",'PL', 'PV', 'GF', 'GC', 'DIF'];
+        this.column_labels.titles = [" "," ", 'Puntos', "Ganados", "Empatados", "Perdidos",'Puntos local', 'Puntos visitante', 'Goles a favor', 'Goles en contra', 'Diferencia goles'];
+    }
+
     //update the col headers
     var colHeaders = this.tableGroup.select('.col-header-group').selectAll(".col-header");
     //retrieve the sort
@@ -311,7 +318,7 @@ Table.prototype.init = function(params){
     //--------------------------Area Lines---------------------------//
     //---------------------------------------------------------------//
     this.tableGroup.selectAll(".area-line")
-        .data([PODIUM_RANK,EUROPE_RANK,RELEGATION_RANK-1])
+        .data([PODIUM_RANK,CL_QUALI_RANK,EUROPE_RANK,RELEGATION_RANK-1,ABSTIEG_RANK-1])
         .enter()
         .append("line")
         .attr("class","area-line")
